@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.iontrading.cat:commons-jmkv:0.0.61">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/cat/commons-jmkv/0.0.61/commons-jmkv-0.0.61.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/cat/commons-jmkv/0.0.61/commons-jmkv-0.0.61-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/cat/commons-jmkv/0.0.61/commons-jmkv-0.0.61-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

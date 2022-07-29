@@ -1,0 +1,40 @@
+#
+# PLATFORM REGISTRATION SECTION
+#
+mkv.component = R567
+mkv.listen = 65432
+mkv.user = mkv
+mkv.pwd = mkv12
+mkv.cshost = dockerdev
+mkv.csport = 13000
+
+#
+# PLATFORM PUBLICATION SECTION
+#
+mkv.currency = ANY
+mkv.source = R567
+
+#
+# TRACING SETTINGS SECTION
+#
+# File for ION 2.0 logs (default is the component name) 
+mkv.log_name = R567
+# File for SLF4J logs (default is the component name) 
+mkv.ext.log_name = R567
+# Enables ION BUS (PSH) logs at minimum level
+mkv.debug = 100
+# Enables ION 2.0 logs at minimum level (1=verbose,5=debug,10=info)
+mkv.log_threshold = 10
+# Enables third-party SLF4J logs at minimum level (1=verbose,5=debug,10=info)
+mkv.ext.log_threshold = 10
+
+# Minimum required database setup. Use file-based HSQLDB
+mkv.DB.NAME=TPDB
+mkv.DB.USER=TPDB
+mkv.DB.PASSWORD=TPDB
+mkv.DB.TYPE=HSQLFILE
+
+# Enable auto generation of dbschema
+mkv.db.hbm2ddl.auto=create
+mkv.db.format.sql = true
+mkv.db.show.sql = true

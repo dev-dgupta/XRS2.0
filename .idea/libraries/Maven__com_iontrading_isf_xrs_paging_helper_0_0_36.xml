@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.iontrading.isf:xrs_paging_helper:0.0.36">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/xrs_paging_helper/0.0.36/xrs_paging_helper-0.0.36.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/xrs_paging_helper/0.0.36/xrs_paging_helper-0.0.36-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/iontrading/isf/xrs_paging_helper/0.0.36/xrs_paging_helper-0.0.36-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document
+	xsi:schemaLocation="http://pinexus01.iontrading.com:8081/nexus/content/groups/public/com/iontrading/tracker-changelog/1.0.2/tracker-changelog-1.0.2.xsd"
+	xmlns="http://iongroup.com/changelog/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<changelog component="relman-test-artifact">
+		<release version="107" date="2017-09-12" summary="Second enh">
+			<notes>
+				Another new cool enhancement
+			</notes>
+			<enhancements>
+				<enhancement enhancementId="IAP-99997" showInEmail="false"
+					visibleToClient="true" title="Fix title">
+					<description>Super smart feature I</description>
+				</enhancement>
+
+			</enhancements>
+		</release>
+		<release version="106" date="2017-08-12" summary="Fix for bad release">
+			<notes>
+				The details about the fix...
+			</notes>
+			<requirements>
+				<requirement component="sysadmin" version="216" />
+				<requirement component="mkvtool" version="106" />
+			</requirements>
+			<compatibility>
+				compatibility notes here
+			</compatibility>
+			<enhancements>
+				<enhancement enhancementId="IAP-99998" showInEmail="false"
+					visibleToClient="true" title="Fix title">
+					<description>enhancement description</description>
+				</enhancement>
+				<enhancement enhancementId="IAP-99999" showInEmail="false"
+					visibleToClient="true" title="Second Fix title">
+					<description>second enhancement description</description>
+				</enhancement>
+			</enhancements>
+			<newFeatures>
+				<feature visibleToClient="true" showInEmail="false" title="feature">
+					<description>new feature description</description>
+				</feature>
+				<feature visibleToClient="true" showInEmail="false" title="feature">
+					<description>second new feature description</description>
+				</feature>
+			</newFeatures>
+			<fixes>
+				<fix visibleToClient="true" showInEmail="false" fixId="none"
+					title="Fix title">
+					<description>fix description</description>
+				</fix>
+				<fix visibleToClient="true" showInEmail="false" fixId="none"
+					title="Second fix title">
+					<description>second fix description</description>
+				</fix>
+			</fixes>
+			<knownLimitations>
+			</knownLimitations>
+			<internalNotes>
+				This version has been fully tested from development
+				side (Integration
+				Tests in Continuous Integration environments). No
+				external test is
+				required.
+			</internalNotes>
+		</release>
+	</changelog>
+</document>
